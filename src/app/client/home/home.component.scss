@@ -1,0 +1,57 @@
+@import "~src/assets/style/linkin";
+.logo {
+    width:100%;
+    height:15vh;
+    font-family: 'Arimo-Bold', bold;
+    @include flex();
+
+    img {
+        border-radius: 100px;
+        width:auto;
+        height:100%;
+        cursor:pointer;
+    }
+}
+.title {
+    margin-top:3vh;
+    font-family: 'Arimo-Bold', bold;
+    letter-spacing: 3px;
+    position: relative;
+    top:0;
+    font-size:2em;
+    text-align: center;
+    height:1.5vh;
+    color: #E6D390 ; 
+}
+
+.Product-Container {
+    margin-top:5vh;
+    width:100%;
+    height:auto;
+    padding:5%;
+
+}
+
+.Regions {
+    cursor:pointer;
+    box-sizing: content-box;
+    width:90%;
+    margin:0 0 12% 5%;
+    position:relative;
+    @include flex(center,column);
+    background:#333;
+    height:15vh;
+
+    img {
+        opacity: 0.86;
+        width:100%;
+        height:100%;
+    }
+
+    p {
+        color:white;
+        font-size:1.8em;
+        position:absolute;
+        text-shadow: 2px 2px #000000;
+    }
+}

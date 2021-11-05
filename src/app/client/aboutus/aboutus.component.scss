@@ -1,0 +1,19 @@
+@import "~src/assets/style/linkin";
+
+.About-Us {
+    width: 100%;
+
+    .title {
+        margin-top:3vh;
+        text-align: center;
+        font-size:2em;
+        color:$secondary ;
+    }
+
+    div {
+        padding:5%;
+        text-indent: 10%;
+        letter-spacing: 2px;
+        line-height:1.3;
+    }
+}
